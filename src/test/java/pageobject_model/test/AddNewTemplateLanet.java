@@ -54,7 +54,7 @@ public class AddNewTemplateLanet {
         changeLanet.click();
         Thread.sleep(4222);
         WebElement enterNumber = driver.findElement(By.xpath("//input[@id='request-contract_number']"));
-        enterNumber.sendKeys("123321");
+        enterNumber.sendKeys("1233215");
         WebElement submitPay = driver.findElement(By.xpath("//button[@id='button-terminal-pay']"));
         submitPay.click();
 
