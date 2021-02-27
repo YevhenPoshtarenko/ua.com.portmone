@@ -49,10 +49,10 @@ public class AddNewTemplateLanet {
         Thread.sleep(2222);
         WebElement changeTv = driver.findElement(By.xpath("//a[@id='1004']"));
         changeTv.click();
-        Thread.sleep(5222);
+        Thread.sleep(4222);
         WebElement changeLanet = driver.findElement(By.xpath("//img[@alt='Ланет.']"));
         changeLanet.click();
-        Thread.sleep(5222);
+        Thread.sleep(4222);
         WebElement enterNumber = driver.findElement(By.xpath("//input[@id='request-contract_number']"));
         enterNumber.sendKeys("123321");
         WebElement submitPay = driver.findElement(By.xpath("//button[@id='button-terminal-pay']"));
